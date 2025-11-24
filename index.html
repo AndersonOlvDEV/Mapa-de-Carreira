@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<!--
+
+    Instruções para manipular os arquivos.
+
+    1. Abra o arquivo index.html no seu editor de código.
+    2. Customize o conteúdo do arquivo index.html de acordo com as suas necessidades.
+    3. Altere a foto, o favicon e o título do site.
+    4. O arquivo bootstrap possui variados temas de cores, escolha o que mais lhe agradar. (Olhar a pasta assets/css.)
+    5. Linkedin e GitHub são apenas exemplos de redes sociais, sinta-se livre para adicionar outras redes sociais.
+    6. Adicione um link para o seu currículo em PDF. (Dica: Utilize o Google Drive para hospedar o arquivo PDF e compartilhar o link.)
+    7. Para as barras de afinidades com as tecnologias, você pode alterar o nome da tecnologia e a porcentagem de afinidade. Procure pela classe "progress-bar" e altere o valor de width. (Dica: A porcentagem é um valor entre 0 e 100.)
+    8. Salve o arquivo e abra o arquivo index.html no seu navegador para visualizar o site.
+    9. Subir no GitHub.
+    10. Publicar utilizando o GitHub Pages. (Tutorial: https://www.alura.com.br/artigos/como-colocar-projeto-no-ar-com-github-pages/)
+    11. Compartilhar o link do seu site com a professora Adriana através da Planilha.
+    12. Parabéns! Você concluiu o desafio.
+
+-->
+
+
+<head>
+    <title>Anderson: Mapa de Carreira</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/bootstrap-4.css">
+
+</head>
+
+<body>
+
+<article class="resume-wrapper text-center position-relative">
+    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
+        <header class="resume-header pt-4 pt-md-0">
+            <div class="row">
+                <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
+                    <img class="picture" src="assets/images/profile.andy.jpg" alt="">
+                </div>
+                <div class="col">
+                    <div class="row p-4 justify-content-center justify-content-md-between">
+                        <div class="primary-info col-auto">
+                            <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Anderson Oliveira</h1>
+                            <div class="title mb-3">Desenvolvedor, UI/UX Designer, Dados</div>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a class="text-link" href="mailto:anderson.rochatjs@gmail.com">
+                                        <i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>
+                                        anderson.rochatjs@gmail.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="secondary-info col-auto mt-2">
+                            <ul class="resume-social list-unstyled">
+                                <li class="mb-3"><a class="text-link" href="https://www.linkedin.com/in/andersonoliveiradev/">
+											<span class="fa-container text-center me-2">
+												<i
+                                                        class="fab fa-linkedin-in fa-fw"></i></span>andersonoliveiradev</a>
+                                </li>
+                                <li class="mb-3">
+                                    <a class="text-link" href="https://github.com/AndersonOlvDEV">
+											<span class="fa-container text-center me-2">
+												<i class="fab fa-github-alt fa-fw"></i></span>AndersonOlvDEV
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <div class="resume-body p-5">
+            <section class="resume-section summary-section mb-5">
+                <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Prazer em Conhecer</h2>
+                <div class="resume-section-content">
+                    <p class="mb-0">Sou Anderson, estudante apaixonado por tecnologia e inovação. Atualmente curso desenvolvimento mobile no Instituto Proa, atuo como UI/UX designer e programo em Kotlin porém estou em transição para a área de Dados, desenvolvendo minhas habilidades com Python, SQL e PowerBI. Acredito que a jornada na área tech é feita de aprendizado contínuo, criatividade e propósito e estou construindo meu caminho com entusiasmo, foco e vontade de transformar ideias em soluções reais.</p>
+
+                    <!-- Altere o link para um PDF do seu Curriculo -->
+                    <a class="btn" href="https://drive.google.com/file/d/1AMaE2wk1XpNtXX0_d7lTHFTPNX9oJyni/view?usp=drive_link">Baixar o meu CV</a>
+                </div>
+            </section>
+            <div class="row">
+                <div class="col-lg-9">
+                    <section class="resume-section experience-section mb-5">
+                        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Mapa de Carreira
+                        </h2>
+                        <div class="resume-section-content">
+                            <div class="resume-timeline position-relative">
+                                <article class="resume-timeline-item position-relative pb-5">
+
+                                    <div class="resume-timeline-item-header mb-2">
+                                        <div class="d-flex flex-column flex-md-row">
+                                            <h3 class="resume-position-title font-weight-bold mb-1">Analista de Dados Júnior
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="resume-timeline-item-desc">
+                                        <p>Quero desenvolver as melhores práticas para me tornar
+                                            um analista de dados sênior. Possuo uma base sólida em estatística e lógica de dados, com experiência prática na coleta, limpeza e visualização de dados
+                                            utilizando ferramentas como Excel, SQL e Power BI. Capacidade de traduzir dados brutos em insights acionáveis para suportar a tomada de decisões.
+                                            Foco em aprendizado contínuo, atenção aos detalhes e paixão por resolver problemas complexos.</p>
+                                        </p>
+                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                            Soft Skills exigidas para essa carreira:
+                                        </h4>
+                                        <ul>
+                                            <li>Curiosidade e Aprendizado.</li>
+                                            <li>Data Storytelling.</li>
+                                            <li>Pensamento Crítico e Resolução de Problemas.</li>
+                                            <li>Atenção aos Detalhes.</li>
+                                            <li>Colaboração e Trabalho em Equipe.</li>
+                                            <li>Organização e Gerenciamento do Tempo.</li>
+                                            <li>Resiliência e Paciência.</li>
+                                            <li>Proatividade e Autonomia.</li>
+                                        </ul>
+                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                            Roadmap de Aprendizado:</h4>
+                                        </h4>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <span class="badge bg-secondary badge-pill">Python</span>
+                                            </li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">SQL</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">PowerBI</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Looker</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Tableau</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Excel</span></li>
+                                        </ul>
+                                    </div>
+
+                                </article>
+
+                                <article class="resume-timeline-item position-relative pb-5">
+
+                                    <div class="resume-timeline-item-header mb-2">
+                                        <div class="d-flex flex-column flex-md-row">
+                                            <h3 class="resume-position-title font-weight-bold mb-1">Analista de Dados Pleno</h3>
+                                        </div>
+                                    </div>
+                                    <div class="resume-timeline-item-desc">
+                                        <p>Com um profundo domínio técnico em manipulação e modelagem de dados complexos.
+                                            Especialista em otimização de consultas SQL (Window Functions, CTEs) em Data Warehouses e automação de processos ETL/ELT utilizando Python e noções de orquestração (dbt/Airflow).
+                                            Experiência sólida na criação de dashboards de alta usabilidade e precisão estatística.
+                                            Comprometido em garantir a qualidade e integridade dos dados e em traduzir requisitos de negócio complexos em soluções analíticas robustas.</p>
+                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                            Soft Skills exigidas para essa carreira:
+                                        </h4>
+                                        <ul>
+                                            <li>Storytelling com Dados.</li>
+                                            <li>Comunicação e Tradução.</li>
+                                            <li>Pensamento Crítico e Visão de Negócio.</li>
+                                            <li>Autonomia e Liderança de Projeto.</li>
+                                            <li>Gestão de Stakeholders.</li>
+                                            <li>Mentoria e Colaboração.</li>
+                                            <li>Problem-Solving.</li>
+                                        </ul>
+                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                            Roadmap de Aprendizado:</h4>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">DBT</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Apache Airflow</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">R</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Qlik Sense</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">ETL/ELT</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Data Warehousing</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">MySQL</span></li>
+                                        </ul>
+                                    </div>
+
+                                </article>
+
+                                <article class="resume-timeline-item position-relative pb-5">
+
+                                    <div class="resume-timeline-item-header mb-2">
+                                        <div class="d-flex flex-column flex-md-row">
+                                            <h3 class="resume-position-title font-weight-bold mb-1">Analista de Dados Sênior
+                                            </h3>
+
+                                        </div>
+                                    </div>
+                                    <div class="resume-timeline-item-desc">
+                                        <p>altamente experiente e orientado a resultados, atuação na transformação de grandes volumes de dados (Big Data) em insights estratégicos acionáveis.
+                                            Especialista em todo o ciclo de vida da análise de dados, desde a coleta, limpeza, modelagem ($SQL$, $Python$/$R$) e visualização (Tableau/Power BI).
+                                            Histórico comprovado em liderar projetos de BI/Analytics que resultaram em aumento de X% na eficiência operacional e economia de custos de Y%.
+                                            Busca impulsionar a tomada de decisões baseada em dados, liderar equipes de análise e implementar soluções escaláveis.</p>
+                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                            Soft Skills exigidas para essa carreira:
+                                        </h4>
+                                        <ul>
+                                            <li>Comunicação Estratégica e Storytelling de Dados.</li>
+                                            <li>Liderança e Mentoria.</li>
+                                            <li>Influência e Gestão de Stakeholders.</li>
+                                            <li>Visão Estratégica.</li>
+                                            <li>Debugging de Processos.</li>
+                                            <li>Proatividade.</li>
+                                        </ul>
+                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                            Roadmap de Aprendizado:</h4>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">PostgreSQL</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Snowflake</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Redshift</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">BigQuery</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">AWS</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Azure</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">GCP</span></li>
+                                        </ul>
+                                    </div>
+
+                                </article>
+
+                                <article class="resume-timeline-item position-relative">
+
+                                    <div class="resume-timeline-item-header mb-2">
+                                        <div class="d-flex flex-column flex-md-row">
+                                            <h3 class="resume-position-title font-weight-bold mb-1">
+                                                Cientista de Dados
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="resume-timeline-item-desc">
+                                        <p>Profissional focado em transformar problemas de negócio complexos em soluções quantitativas e preditivas, utilizando Machine Learning (ML), estatística avançada e engenharia de dados.
+                                            Experiência comprovada em todo o ciclo de vida do projeto de Data Science, desde a exploração e engenharia de features,
+                                            desenvolvimento e treinamento de modelos (Supervisionados e Não-Supervisionados), até a implantação em produção (deployment/MLOps).
+                                            Histórico de sucesso na otimização de processos e na entrega de valor de negócio mensurável.</p>
+                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                            Soft Skills exigidas para essa carreira:
+                                        </h4>
+                                        <ul>
+                                            <li>Visão de negócios.</li>
+                                            <li>Abordagem Científica.</li>
+                                            <li>Business Acumen.</li>
+                                            <li>Gerenciamento de Expectativas.</li>
+                                            <li>Autonomia no Aprendizado.</li>
+                                        </ul>
+                                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">
+                                            Roadmap de Aprendizado:</h4>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Random Forest</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">XGBoost</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Git</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Docker</span></li>
+                                            <li class="list-inline-item"><span
+                                                    class="badge bg-secondary badge-pill">Kubernetes</span></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-3">
+                    <section class="resume-section skills-section mb-5">
+                        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Soft e Hard
+                            Skills</h2>
+                        <p>Afinidade com as seguintes tecnologias e técnicas:</p>
+                        <div class="resume-section-content">
+                            <div class="resume-skill-item">
+                                <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <div class="resume-skill-name">HTML</div>
+                                        <div class="progress resume-progress">
+                                            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                 style="width: 85%" aria-valuenow="25" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="resume-skill-name">VS Code</div>
+                                        <div class="progress resume-progress">
+                                            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                 style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="resume-skill-name">Figma</div>
+                                        <div class="progress resume-progress">
+                                            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                 style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="mb-2">
+                                        <div class="resume-skill-name">CSS</div>
+                                        <div class="progress resume-progress">
+                                            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                 style="width: 50%" aria-valuenow="25" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="resume-skill-item">
+                                <h4 class="resume-skills-cat font-weight-bold">Backend</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <div class="resume-skill-name">Python</div>
+                                        <div class="progress resume-progress">
+                                            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                 style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="resume-skill-name">Kotlin</div>
+                                        <div class="progress resume-progress">
+                                            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                 style="width: 80%" aria-valuenow="25" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="resume-skill-name">SQL</div>
+                                        <div class="progress resume-progress">
+                                            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                 style="width: 65%" aria-valuenow="25" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
+                                    </li>
+                                    <li class="mb-2">
+                                        <div class="resume-skill-name">MongoDB</div>
+                                        <div class="progress resume-progress">
+                                            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                 style="width: 82%" aria-valuenow="25" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="resume-skill-item">
+                                <h4 class="resume-skills-cat font-weight-bold">Outras</h4>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><span class="badge badge-light">Canva</span></li>
+                                    <li class="list-inline-item"><span class="badge badge-light">CorelDraw</span>
+                                    </li>
+                                    <li class="list-inline-item"><span class="badge badge-light">Adobe Illustrator</span></li>
+                                    <li class="list-inline-item"><span class="badge badge-light">Portugol</span>
+                                    </li>
+                                    <li class="list-inline-item"><span class="badge badge-light">Git</span>
+                                    </li>
+                                    <li class="list-inline-item"><span class="badge badge-light">Word</span></li>
+                                    <li class="list-inline-item"><span class="badge badge-light">PowerPoint</span>
+                                    </li>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="resume-section language-section mb-5">
+                        <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Idiomas</h2>
+                        <div class="resume-section-content">
+                            <ul class="list-unstyled resume-lang-list">
+                                <li class="mb-2"><span class="resume-lang-name font-weight-bold">Português</span>
+                                    <small class="text-muted font-weight-normal">(Nativo)</small>
+                                </li>
+                                <li class="mb-2 align-middle"><span
+                                        class="resume-lang-name font-weight-bold">Inglês</span> <small
+                                        class="text-muted font-weight-normal">(Técnico)</small></li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+</body>
+
+</html>
